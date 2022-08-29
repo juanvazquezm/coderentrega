@@ -6,12 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./img/logoChiquito.png" type="image/x-icon">
     <link rel="stylesheet" href="./Estilos/style.css">
-    <title>Document</title>
+    <title>Inicio -Seleccion Basquet Argentina</title>
+    <meta property="og:title" content= "Inicio - Basquet Argentina">
+    <meta property="og:site_name" content="Basquet Argentina">
+    <meta property="og:url" content="https://basquet-argentina.netlify.app/">
+    <meta property="og:description" content="Noticias sobre la selaccion Argentina de basquet. Noticias de sobre la actualidad del equipo nacional de basquetball argentino">
+
 </head>
 <body>
     <header>
         <!-- ENCABEZADO -->
-     <!-- <nav class="menuGeneral">
+    <!-- <nav class="menuGeneral">
         <div class="logo">
             <img src="./img/logo (3).png" alt="logo basquet">
         </div>
@@ -39,8 +44,12 @@
     </nav>   
     </header>
     <main>
-        <img src="./img/equipo.jpg" class="imagenPrincipal" alt="seleccion argentina">
-        <h1>Seleccion Argentina</h1>
+        <picture>
+            <source srcset="./img/equipo600.jpg" media="(max-width:600px)">
+            <source srcset="./img/equipo900.jpg" media="(max-width:900px)">
+            <img src="./img/equipo1280.jpg" loading="lazy" alt="equipo de la seleccion argentino de basquet">
+        </picture>
+        <h1>Seleccion Argentina de Basquet</h1>
     </main>
     <h2>Ultimas Noticias</h2>
     <nav class="noticias">
