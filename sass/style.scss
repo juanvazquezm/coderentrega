@@ -1,30 +1,6 @@
 @import "fuentes";
 @import "generlaes";
-
-
-.articuloCompleto{
-    padding: 10px;
-}
-
-.articulosImagen{
-    height: 150px;
-}
-
-article{
-    display: flex;
-    flex-direction: row;
-    margin: 10px 0px 10px 0px;
-}
-.noticias{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.articuloTexto{
-    margin: 0px 0px 0px 20px;
-}
-
+@import "articulos";
 
 /*
 .flexContainer{
